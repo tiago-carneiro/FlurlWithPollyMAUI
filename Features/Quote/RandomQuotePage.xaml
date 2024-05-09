@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlurlWithPollyMAUI.RandomQuotePage"
+             xmlns:local="clr-namespace:FlurlWithPollyMAUI"
+             x:DataType="local:RandomQuoteViewModel"
+             ControlTemplate="{StaticResource PageLoaderControlTemplate}"
+             Title="Random Quote">
+    <VerticalStackLayout
+        Padding="20"
+        Spacing="16">
+        <Label 
+            Text="{Binding Item.Text}"
+            FontAttributes="Bold" />
+
+        <Label
+            Text="{Binding Item.Author}"
+            HorizontalOptions="End"/>
+
+        <Button
+            Text="Update"           
+            Command="{Binding UpdateCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

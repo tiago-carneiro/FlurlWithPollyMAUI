@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlurlWithPollyMAUI", "FlurlWithPollyMAUI.csproj", "{5917D4DF-7423-460D-8720-58363CAB30DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5917D4DF-7423-460D-8720-58363CAB30DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5917D4DF-7423-460D-8720-58363CAB30DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5917D4DF-7423-460D-8720-58363CAB30DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5917D4DF-7423-460D-8720-58363CAB30DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3589E563-A056-4549-A2EF-D2C734D8A680}
+	EndGlobalSection
+EndGlobal
